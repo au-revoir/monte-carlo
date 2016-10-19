@@ -4,13 +4,13 @@ import matplotlib.pyplot
 def cal_dice_roll():
     outcome=random.randint(1,100)
     if 50<=outcome<=99:
-       # print outcome,"You won! Time to celebrate!"
+     
         return True
     elif outcome==100:
-        #print outcome,"You lost! I am afraid you'll have to fork out the money from your pocket!"
+       
         return False
     elif outcome<50:
-        #print outcome,"You lost! I am afraid you'll have to fork out the money from your pocket!" 
+        
         return False
 count=1
 def odds(tot_amt,wager):
